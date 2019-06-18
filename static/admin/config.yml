@@ -15,6 +15,17 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", required: "false", widget: "date", format: "YYYY-MM-DD"}
-      - {label: "Tags", name: "tags", required: "false", widget: "list"}
-      - {label: "Body", name: "body", required: "false", widget: "markdown"}
+      - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
+      - {label: "Tags", name: "tags", required: false, widget: "list"}
+      - {label: "Body", name: "body", required: false, widget: "markdown"}
+  - name: "projects" # Used in routes, e.g., /admin/collections/blog
+    label: "Projects" # Used in the UI
+    folder: "content/projects" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Date", name: "date", required: false, widget: "date", format: "YYYY-MM-DD"}
+      - {label: "Tags", name: "tags", required: false, widget: "list"}
+      - {label: "Body", name: "body", required: false, widget: "markdown"}
