@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ameyathakur.com/projects/projects/</loc>
+    <lastmod>2018-08-20T20:29:37-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/blog/purpose/</loc>
+    <lastmod>2018-08-20T04:38:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/projects/small-project/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/blog/example-article/</loc>
+    <lastmod>2015-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/blog/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/blog/hugo-template-primer/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/blog/getting-started-with-hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/</loc>
+    <lastmod>2018-08-20T20:29:37-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/blog/</loc>
+    <lastmod>2018-08-20T04:38:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/home/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/license/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/projects/</loc>
+    <lastmod>2018-08-20T20:29:37-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/tags/projects/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/tags/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/tags/templates/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ameyathakur.com/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
