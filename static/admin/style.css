@@ -738,9 +738,7 @@ kbd {
 }
 
 
-</style>
-<style media="(min-width: 600px)">
-  body {
+body {
 -webkit-justify-content: center;
 -moz-justify-content: center;
 -ms-justify-content: center;
