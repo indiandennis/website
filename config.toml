@@ -1,4 +1,4 @@
-baseurl = "https://hungry-poitras-9013ec.netlify.com/"
+baseurl = "/"
 theme = "cocoa-eh"
 builddrafts = true
 canonifyurls = false
