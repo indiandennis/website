@@ -7,7 +7,7 @@ languageCode = "en-US"
 layoutdir = "layouts"
 publishdir = "public"
 author = "Ameya Thakur"
-title = "" 
+title = ""
 disqusshortname = ""
 pluralizelisttitles = false
 
