@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Nexa Bold';
-  font-display: block;
+  font-display: auto;
   src: url('{{ .Site.BaseURL }}fonts/Nexa Bold.otf');
 }
 
