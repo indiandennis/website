@@ -10,9 +10,7 @@ For our final project for the digital design lab course at UCLA, we (myself and 
 
 Here's a demo:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xhBDwlnXX10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+<div style="text-align: center"> <iframe width="560" height="315" src="https://www.youtube.com/embed/xhBDwlnXX10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 I had never used Verilog before the start of this course, and after the first lab session I was not expecting to do well in the course. I had taken CS M51a, the introduction to digital logic design course at UCLA, but the whole system of writing Verilog and deploying to an FPGA with the Xilinx ISE seemed alien, especially with the emphasis that it was not the same as writing software. However, as we went through the process of learning about Verilog and completed assignments of increasing complexity, I really started enjoying it. 
 
