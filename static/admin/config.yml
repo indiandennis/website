@@ -60,6 +60,48 @@ collections:
     label: Projects
     name: projects
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+  - 
+    files: 
+      - 
+        fields: 
+          - 
+            label: Title
+            name: title
+            widget: string
+          - 
+            label: Body
+            name: body
+            required: false
+            widget: markdown
+        file: content/about.md
+        label: "About Page"
+        name: about
+      - 
+        fields: 
+          - 
+            label: Title
+            name: title
+            widget: string
+          - 
+            label: Body
+            name: body
+            required: false
+            widget: markdown
+        file: content/home.md
+        label: "Home Page"
+        name: home
+      - 
+        fields: 
+          - 
+            label: Body
+            name: body
+            required: false
+            widget: markdown
+        file: content/license.md
+        label: "License"
+        name: license
+    label: Pages
+    name: pages
 media_folder: static/img/uploads
 public_folder: /img/uploads
 publish_mode: editorial_workflow
