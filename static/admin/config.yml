@@ -2,6 +2,8 @@
 backend: 
   branch: master
   name: git-gateway
+site_url: https://ameyathakur.com
+display_url: https://ameyathakur.com
 collections: 
   - 
     create: true
