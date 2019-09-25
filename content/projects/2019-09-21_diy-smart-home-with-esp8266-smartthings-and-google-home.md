@@ -47,4 +47,12 @@ After rewiring the rack and installing a new HDMI Matrix that supported HDCP pro
 
 # Conclusion
 
-This whole process is overly complex and has many potential security flaws. I'm not too concerned with security in this specific application because nothing meaningful is connected to the system. Even if the entire thing is compromised, the worst an attacker can do is control the media center and turn TVs on and off. Google needs to invest in their Google Home lineup if they really want it to compete against Alexa, which has a skills system that would be much more useful for a system like this. Google has a system for businesses to add commands, but those are behind an additional trigger, which makes them more cumbersome to use.
+This whole process is overly complex and has many potential security flaws. I'm not too concerned with security in this specific application because nothing meaningful is connected to the system. Even if the entire thing is compromised, the worst an attacker can do is control the media center and turn TVs on and off. Google needs to invest in their Google Home lineup if they really want it to compete against Alexa, which has a skills system that would be much more useful for a system like this. Google has a system for businesses to add commands, but those are behind an additional trigger, which makes them more cumbersome to use. 
+
+This project turned out to be more of an engineering project than a programming project. I had to come up with my own solution and fully utilizing the knowledge that I have gained over the years, and I even needed to create documentation. This was probably my first real experience with professional level development, although obviously the quality was lower than I would do in a professional setting since it was for personal use. The project was not as much about learning more as it was about learning to apply what I have learned, and in that regard it was successful. I've gained a better handle on integrating various aspects of technology and creating a product usable by a non technical user. 
+
+
+
+# Follow Up
+
+In the future, I may consider expanding on the remote app. I'm unsure what the demand would be for a smart home remote that integrates with multiple services, especially since there may already be some out there. However, when I was creating mine, it was very difficult for me to find any, especially any that are programmable and customizable. This may be an area that I can explore in the future. Grommet already has a UI builder that I can modify to be a remote builder instead. However, I would need to be very careful with security if I chose to expand on this because handling other peoples' security is more important than handling my own.
