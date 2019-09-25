@@ -13,6 +13,8 @@ My family bought our house around 4 years ago, and it came with a very interesti
 
 Here is an image of the rack before I began:
 
+![](/img/uploads/homemediarack-before.png)
+
 It was quite a mess with loose cables and weird connections as a result of the removed devices. To make the system easier to work with, I needed to remove the unused cables and rewire the system. The rack itself consists of the following devices (from top to bottom):
 
 * Cisco 100Mbps switch (fans too loud to use)
@@ -47,14 +49,18 @@ After rewiring the rack and installing a new HDMI Matrix that supported HDCP pro
 
 # Conclusion
 
-This whole process is overly complex and has many potential security flaws. I'm not too concerned with security in this specific application because nothing meaningful is connected to the system. Even if the entire thing is compromised, the worst an attacker can do is control the media center and turn TVs on and off. Google needs to invest in their Google Home lineup if they really want it to compete against Alexa, which has a skills system that would be much more useful for a system like this. Google has a system for businesses to add commands, but those are behind an additional trigger, which makes them more cumbersome to use. 
+Here are some pictures of the rack after the project was completed.
+
+![](/img/uploads/rack-front-after.png)
+
+![](/img/uploads/rack-back-after.png)
+
+This whole process was overly complex and has many potential security flaws. I'm not too concerned with security in this specific application because nothing meaningful is connected to the system. Even if the entire thing is compromised, the worst an attacker can do is control the media center and turn TVs on and off. Google needs to invest in their Google Home lineup if they really want it to compete against Alexa, which has a skills system that would be much more useful for a system like this. Google has a system for businesses to add commands, but those are behind an additional trigger, which makes them more cumbersome to use. 
 
 This project turned out to be more of an engineering project than a programming project. I had to come up with my own solution and fully utilizing the knowledge that I have gained over the years, and I even needed to create documentation. This was probably my first real experience with professional level development, although obviously the quality was lower than I would do in a professional setting since it was for personal use. The project was not as much about learning more as it was about learning to apply what I have learned, and in that regard it was successful. I've gained a better handle on integrating various aspects of technology and creating a product usable by a non technical user. 
 
 # Follow Up
 
 In the future, I may consider expanding on the remote app. I'm unsure what the demand would be for a smart home remote that integrates with multiple services, especially since there may already be some out there. However, when I was creating mine, it was very difficult for me to find any, especially any that are programmable and customizable. This may be an area that I can explore in the future. Grommet already has a UI builder that I can modify to be a remote builder instead. However, I would need to be very careful with security if I chose to expand on this because handling other peoples' security is more important than handling my own. I may also be able to sell something like this to smart home integrators since there doesn't seem to be a major remote app currently. 
-
-
 
 This entire process can be improved dramatically, which I may also consider trying out in the future. If Google's custom command API improves, I can try creating a general purpose system that is easier to set up than what I did, so that other people can avoid spending hours creating pistons and IFTTT applets. Overall, there is a lot of potential in the IoT and smart home space, and I may be interested in exploring it further in the future.
