@@ -12,6 +12,6 @@ $ pihole uninstall
 
 However, after completing the uninstall and restarting, I was left without internet access. At first, I thought this was a result of my ZeroTier installation conflicting with PiHole's uninstall, because I had lots of routes that seemed strange. I later found that the dhcpcd configuration that PiHole creates to keep the IP static isn't reset after it is uninstalled. 
 
-If you are having the same problem, check /etc/dhcpcd.conf and see if there are static configurations that you didn't set at the bottom. These configs set the DNS to 127.0.0.1, which doesn't work when PiHole is not running to handle requests.
+If you are having the same problem, check /etc/dhcpcd.conf and see if there are static configurations that you didn't set at the bottom. These configs set the DNS to 127.0.0.1, which doesn't work when PiHole is not running to handle requests. After removing them, everything seems back to normal. Be warned, this may mess with your network-manager settings, so you may have to restart afterwards and setup your connections again.
 
 Just thought I'd post this in case anyone else has the same problem since I couldn't find an answer online myself.
