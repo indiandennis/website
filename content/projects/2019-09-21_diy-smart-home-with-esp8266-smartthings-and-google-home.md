@@ -13,7 +13,7 @@ My family bought our house around 4 years ago, and it came with a very interesti
 
 Here is an image of the rack before I began:
 
-![](/img/uploads/homemediarack-before.png)
+![Image of the back of the rack](/img/uploads/rack_before_back.jpg "Back of the rack before starting the project")
 
 It was quite a mess with loose cables and weird connections as a result of the removed devices. To make the system easier to work with, I needed to remove the unused cables and rewire the system. The rack itself consists of the following devices (from top to bottom):
 
