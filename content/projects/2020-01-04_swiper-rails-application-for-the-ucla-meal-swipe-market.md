@@ -8,6 +8,8 @@ tags:
 ---
 At UCLA, students living in dorms on campus ("on the hill"), get food from the dining halls and takeout locations using prepaid meal swipes. Because there are only a few plans available with a fixed number of swipes, most students end up with either too many or too few swipes by the end of the quarter. In addition, due to the high quality of UCLA's dorm food, many students living off campus want to eat on campus on occasion. This situation naturally leads to a large market for swipes. This market is primarily on Facebook groups, where it is highly unorganized and lacks easy filtering and sorting methods. We sought to resolve this situation for our Scalable Internet Services course.
 
+The completed application can be viewed at: [swiper.ameyathakur.com](https://swiper.ameyathakur.com). There may be some issues due to the seeded DB being too large for Heroku's free tier and the seeded data being older than the current date, messing up some of the filtering.
+
 ## The Application
 
 We were required to create the application using Rails, although none of the four of us had used it before. The actual application architecture is relatively simple. There are two models, one for users and one for listings. 
