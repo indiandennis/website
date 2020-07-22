@@ -8,6 +8,8 @@ tags:
 ---
 ### Introduction
 
+Source: <https://github.com/indiandennis/CSVtoPDF-public>
+
 I created this simple utility for my Mom's dental practice. She wanted to have patients fill out intake forms before coming into the office (even more necessary than before due to the current pandemic), but needed a HIPAA compliant solution that could result in nicely formatted printed forms. Most professional providers charge upwards of $50 a month for just the HIPAA compliant forms, so I decided to make something to handle it. Google Forms are already covered under the BAA with Google Apps, but has no way to easily format the outputted table into printable forms. I wrote this program to take the downloaded CSV file, split the data by row (per patient), put it into an HTML template, and generate a printable PDF. 
 
 ### Implementation
