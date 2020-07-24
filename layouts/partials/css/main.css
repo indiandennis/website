@@ -1,8 +1,4 @@
-@font-face {
-  font-family: 'Nexa Bold';
-  font-display: auto;
-  src: url('{{ .Site.BaseURL }}fonts/Nexa Bold.otf');
-}
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -84,7 +80,7 @@ body {
   width: 100%;
   min-height: 100%;
   font-weight: 400;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Helvetica Neue', 'Roboto', 'Arial', sans-serif;
   color: #111111;
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
@@ -164,7 +160,7 @@ div.header .container .logo {
 div.header .name {
   padding-top: 20px;
   font-size: 28px;
-  font-family: 'Nexa Bold', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Helvetica Neue', 'Roboto', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   {{ if isset .Site.Params "titlestyle" }}
       {{ if in "capitalize uppercase lowercase none full-width" .Site.Params.titlestyle }}
@@ -207,7 +203,7 @@ div.header nav ul a {
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Helvetica Neue', 'Roboto', 'Arial', sans-serif;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -291,7 +287,7 @@ div.main .content .posts {
 div.main .content .page-heading {
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Helvetica Neue', 'Roboto', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   text-transform: uppercase;
   -moz-osx-font-smoothing: grayscale;
@@ -377,7 +373,7 @@ div.main .container.f04 .content {
 div.main .container.f04 .content .num {
   margin: 30px 0px 30px 0;
   font-weight: 400;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Helvetica Neue', 'Roboto', 'Arial', sans-serif;
   font-size: 50px;
 }
 div.main .container.f04 .content .detail {
@@ -458,7 +454,7 @@ div.main .content .markdown {
   font-size: 1.1em;
   line-height: 1.75em;
   color: #313537;
-  font-family: serif;
+  font-family: 'Helvetica Neue', 'Roboto', 'Arial', sans-serif;
   font-weight: 300;
 }
 div.main .content .markdown h1,
@@ -468,7 +464,7 @@ div.main .content .markdown h4,
 div.main .content .markdown h5,
 div.main .content .markdown h6 {
   font-size: 22px;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Helvetica Neue', 'Roboto', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
