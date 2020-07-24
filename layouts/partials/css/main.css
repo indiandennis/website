@@ -193,8 +193,8 @@ div.header nav ul li {
   margin-right: 6px;
 }
 div.header nav ul li:first-child {
-  margin-left: 24;
-  margin-right: 18;
+  margin-left: 24px;
+  margin-right: 18px;
 }
 div.header nav ul li:last-child {
   margin-right: 0;
