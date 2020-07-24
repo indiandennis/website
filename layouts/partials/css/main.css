@@ -193,7 +193,8 @@ div.header nav ul li {
   margin-right: 6px;
 }
 div.header nav ul li:first-child {
-  margin-left: 0;
+  margin-left: 24;
+  margin-right: 18;
 }
 div.header nav ul li:last-child {
   margin-right: 0;
@@ -201,7 +202,7 @@ div.header nav ul li:last-child {
 div.header nav ul a {
   color: #555555;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   text-transform: uppercase;
   font-family: 'Helvetica Neue', 'Roboto', 'Arial', sans-serif;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
