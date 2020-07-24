@@ -8,7 +8,7 @@ tags:
   - backend
   - frontend
 ---
-Youtube Connect Website: [youtubeconnect.ameyathakur.com](youtubeconnect.ameyathakur.com)
+Youtube Connect Website: [https://youtubeconnect.ameyathakur.com](youtubeconnect.ameyathakur.com)
 
 ### Introduction
 
