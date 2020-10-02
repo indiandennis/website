@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = ""
 theme = "cocoa-eh"
 builddrafts = true
 canonifyurls = false
@@ -7,7 +7,7 @@ languageCode = "en-US"
 layoutdir = "layouts"
 publishdir = "public"
 author = "Ameya Thakur"
-title = ""
+title = "Ameya Thakur"
 disqusshortname = ""
 pluralizelisttitles = false
 
@@ -17,7 +17,7 @@ blog = "blog/:slug/"
 [params]
 dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "My blog"
+description = "Ameya Thakur's blog/projects/portfolio"
 copyright = "Copyright © 2020 Ameya Thakur"
 logofile = "img/logo.png"
 faviconfile = "favicon.ico"
