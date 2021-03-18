@@ -1,0 +1,5 @@
+/.well-known/matrix/server
+  Access-Control-Allow-Origin: *
+
+/.well-known/matrix/client
+    Access-Control-Allow-Origin: *
