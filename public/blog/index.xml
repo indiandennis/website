@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Ameya Thakur</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on Ameya Thakur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 29 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing No DNS Resolution After Uninstalling PiHole on Ubuntu 18.04</title>
+      <link>http://localhost:1313/blog/fixing-no-dns-resolution-after-uninstalling-pihole-on-ubuntu-18.04/</link>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/fixing-no-dns-resolution-after-uninstalling-pihole-on-ubuntu-18.04/</guid>
+      <description>I recently tried out PiHole to block ads on my smart TV at school. However, Roku&amp;rsquo;s OS doesn&amp;rsquo;t let you change the DNS servers, and I can&amp;rsquo;t use DHCP because my school&amp;rsquo;s network doesn&amp;rsquo;t allow NAT. As a result, I decided to uninstall it from my linux dev board. I did this using&#xA;$ pihole uninstall However, after completing the uninstall and restarting, I was left without internet access. At first, I thought this was a result of my ZeroTier installation conflicting with PiHole&amp;rsquo;s uninstall, because I had lots of routes that seemed strange.</description>
+    </item>
+    <item>
+      <title>Building a JAMstack Website with Netlify CMS</title>
+      <link>http://localhost:1313/blog/building-a-jamstack-website-with-netlify-cms/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/building-a-jamstack-website-with-netlify-cms/</guid>
+      <description>My website has undergone several changes over the years and I&amp;rsquo;ve never really gotten into posting regularly. To a large degree, this is due to the cumbersome interface I always had. I enjoy writing custom files in Markdown and using Github as the static site server as I did when I used the Jekyll static site generator, but it ends up becoming too time consuming to write new things, and as a result, I stop.</description>
+    </item>
+  </channel>
+</rss>

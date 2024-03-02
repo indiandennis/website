@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Development on Ameya Thakur</title>
+    <link>http://localhost:1313/tags/web-development/</link>
+    <description>Recent content in Web Development on Ameya Thakur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swiper: Rails application for the UCLA meal swipe market</title>
+      <link>http://localhost:1313/projects/2020-01-04_swiper-rails-application-for-the-ucla-meal-swipe-market/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2020-01-04_swiper-rails-application-for-the-ucla-meal-swipe-market/</guid>
+      <description>At UCLA, students living in dorms on campus (&amp;ldquo;on the hill&amp;rdquo;), get food from the dining halls and takeout locations using prepaid meal swipes. Because there are only a few plans available with a fixed number of swipes, most students end up with either too many or too few swipes by the end of the quarter. In addition, due to the high quality of UCLA&amp;rsquo;s dorm food, many students living off campus want to eat on campus on occasion.</description>
+    </item>
+    <item>
+      <title>WebGL Rocket Simulation</title>
+      <link>http://localhost:1313/projects/2020-01-04_webgl-rocket-simulation/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2020-01-04_webgl-rocket-simulation/</guid>
+      <description>This project was created for my Introduction to Computer Graphics course as our final project. I worked in a group of three, and we completed project in a span of about 1.5 weeks. The project can be viewed at rocket.ameyathakur.com, although it is not optimized to be delivered over the internet (it uses large textures, etc). You can scroll down to see the controls.&#xA;Our formal writeup for this project is in the readme on Github.</description>
+    </item>
+    <item>
+      <title>Building a JAMstack Website with Netlify CMS</title>
+      <link>http://localhost:1313/blog/building-a-jamstack-website-with-netlify-cms/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/building-a-jamstack-website-with-netlify-cms/</guid>
+      <description>My website has undergone several changes over the years and I&amp;rsquo;ve never really gotten into posting regularly. To a large degree, this is due to the cumbersome interface I always had. I enjoy writing custom files in Markdown and using Github as the static site server as I did when I used the Jekyll static site generator, but it ends up becoming too time consuming to write new things, and as a result, I stop.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,5 +1,5 @@
 baseurl = "https://ameyathakur.com/"
-theme = "cocoa-eh"
+theme = "smol"
 builddrafts = true
 canonifyurls = false
 contentdir = "content"
@@ -8,28 +8,43 @@ layoutdir = "layouts"
 publishdir = "public"
 author = "Ameya Thakur"
 title = "Ameya Thakur"
-disqusshortname = ""
 pluralizelisttitles = false
 
 [permalinks]
-blog = "blog/:slug/"
+    blog = "blog/:slug/"
 
+# Parameters
 [params]
-dateform = "Jan 2, 2006"
-dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "Ameya Thakur's blog/projects/portfolio"
-copyright = "Copyright © 2020 Ameya Thakur"
-logofile = "img/logo.png"
-faviconfile = "favicon.ico"
-highlightjs = true
-progressively = false
-align_left = false
-lang = "en"
-github = "indiandennis"
-email = "website@ameyathakur.com"
-linkedin = "ameyanthakur"
-twitter = ""
-social_banner = ""
-posts_navigation = true
-small_banner_logo = true
-disablefancyfonts = true
+    subtitle = "My blog/projects/portfolio"
+    dateFmt = "Jan 01, 2006"
+    mainSections = "blog"
+
+
+[menu]
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects/"
+        weight = 1
+
+    [[menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/blog/"
+        weight = 2
+
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 3
+
+    [[menu.footer]]
+        name = "Github"
+        url = "https://github.com/indiandennis"
+        weight = 1
+
+    [[menu.footer]]
+        name = "Email"
+        url = "mailto:website@ameyathakur.com"
+        weight = 2

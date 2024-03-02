@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on Ameya Thakur</title>
+    <link>http://localhost:1313/tags/hardware/</link>
+    <description>Recent content in Hardware on Ameya Thakur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 19 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital Design Lab Final Project</title>
+      <link>http://localhost:1313/projects/2019-06-19_first-project/</link>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2019-06-19_first-project/</guid>
+      <description>For our final project for the digital design lab course at UCLA, we (myself and my partner, Edward Chu) created a game similar to Guitar Hero. The game can only play one song, &amp;ldquo;Never Gonna Give You Up&amp;rdquo; by Rick Astley. Our original plan for the game was more complex than we were able to implement due to limited time available in the lab, but it is still fully playable. The source and our more formal report are available on GitHub.</description>
+    </item>
+  </channel>
+</rss>

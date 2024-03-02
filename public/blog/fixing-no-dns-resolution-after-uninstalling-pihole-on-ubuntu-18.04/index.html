@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>Fixing No DNS Resolution After Uninstalling PiHole on Ubuntu 18.04</title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+	
+</head>
+<body>
+	<header>
+	==================<br>
+	== <a href="http://localhost:1313/">Ameya Thakur</a> ==<br>
+	==================
+	<div style="float: right;">My blog/projects/portfolio</div><br>
+	<p>
+	<nav>
+			
+			
+			<a href="/projects/"><b>Projects</b></a>.
+			
+			<a href="/blog/"><b>Blog</b></a>.
+			
+			<a href="/about/"><b>About</b></a>.
+			
+	</nav>
+	</p>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>Fixing No DNS Resolution After Uninstalling PiHole on Ubuntu 18.04</h1>
+			
+			<b><time>Sep 09, 2019</time></b>
+			
+		       
+		           <a href="/tags/"></a>
+        	       
+
+			<div>
+				<p>I recently tried out PiHole to block ads on my smart TV at school. However, Roku&rsquo;s OS doesn&rsquo;t let you change the DNS servers, and I can&rsquo;t use DHCP because my school&rsquo;s network doesn&rsquo;t allow NAT. As a result, I decided to uninstall it from my linux dev board. I did this using</p>
+<pre tabindex="0"><code>$ pihole uninstall
+</code></pre><p>However, after completing the uninstall and restarting, I was left without internet access. At first, I thought this was a result of my ZeroTier installation conflicting with PiHole&rsquo;s uninstall, because I had lots of routes that seemed strange. I later found that the dhcpcd configuration that PiHole creates to keep the IP static isn&rsquo;t reset after it is uninstalled.</p>
+<p>If you are having the same problem, check /etc/dhcpcd.conf and see if there are static configurations that you didn&rsquo;t set at the bottom. These configs set the DNS to 127.0.0.1, which doesn&rsquo;t work when PiHole is not running to handle requests. After removing them, everything seems back to normal. Be warned, this may mess with your network-manager settings, so you may have to restart afterwards and setup your connections again.</p>
+<p>Just thought I&rsquo;d post this in case anyone else has the same problem since I couldn&rsquo;t find an answer online myself.</p>
+
+			</div>
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/blog/fixing-no-dns-resolution-after-uninstalling-pihole-on-ubuntu-18.04/">Fixing No DNS Resolution After Uninstalling PiHole on Ubuntu 18.04</a></li>
+				
+				<li><a href="/blog/building-a-jamstack-website-with-netlify-cms/">Building a JAMstack Website with Netlify CMS</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2024 <a href="http://localhost:1313/"><b>Ameya Thakur</b></a>.
+	<a href="https://github.com/indiandennis"><b>Github</b></a>.
+	<a href="mailto:website@ameyathakur.com"><b>Email</b></a>.
+	</p>
+</footer>
+
+</body>
+</html>

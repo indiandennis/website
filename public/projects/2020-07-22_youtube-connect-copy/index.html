@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>Youtube Connect</title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+	
+</head>
+<body>
+	<header>
+	==================<br>
+	== <a href="http://localhost:1313/">Ameya Thakur</a> ==<br>
+	==================
+	<div style="float: right;">My blog/projects/portfolio</div><br>
+	<p>
+	<nav>
+			
+			
+			<a href="/blog/"><b>Blog</b></a>.
+			
+			<a href="/projects/"><b>Projects</b></a>.
+			
+			<a href="/about/"><b>About</b></a>.
+			
+	</nav>
+	</p>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>Youtube Connect</h1>
+			
+			<b><time>Jul 07, 2020</time></b>
+			
+		       
+		           <a href="/tags/software">software</a>
+        	       
+		           <a href="/tags/utility">utility</a>
+        	       
+		           <a href="/tags/backend">backend</a>
+        	       
+		           <a href="/tags/frontend">frontend</a>
+        	       
+
+			<div>
+				<p>Youtube Connect Website: <a href="https://youtubeconnect.ameyathakur.com">https://youtubeconnect.ameyathakur.com</a></p>
+<h3 id="introduction">Introduction</h3>
+<p>This is a simple application I built over the summer to control a Youtube player in the browser from another device. I don&rsquo;t have any particular use for it but thought that it was something cool I could work on,and a feature that is interestingly missing from Youtube. I was inspired by the Spotify Connect feature which I really enjoy using and admire the implementation of.</p>
+<h3 id="implementation">Implementation</h3>
+<p>To integrate with the player in a user&rsquo;s browser, I need to create a WebExtension. I built it for Firefox first, and it was fairly straightforward to get it to work in Chrome after that using Mozilla&rsquo;s <a href="https://github.com/mozilla/webextension-polyfill">WebExtension Polyfill</a>. I built the extension with plain Javascript, which was a simple way to modify the Youtube DOM to add an additional settings panel for my extension. Using this approach, I was also able to use most of the Youtube styles and interact with the player through Javascript to get and set relevant data.</p>
+<p>Since I don&rsquo;t work at Youtube, I didn&rsquo;t want to deal with any authentication system to sync based on user credentials. Instead, I built a loginless system based on randomly generated tokens. I built the server using Go and <a href="https://github.com/gin-gonic/gin">Gin </a>(a web framework for Go). This made it very straightforward to setup an API to generate, update, delete, and get based on the tokens. An important part of the application is the ability to receive updates in the browser based on changes sent to the API from the remote. I handled this using HTML5 Server Side Events, which play nicely with Javascript and don&rsquo;t require any special handling on the server side (unlike websockets). I also only really needed one way communication, so this made things easier.</p>
+<p>I built the remote application using <a href="https://svelte.dev/">Svelte</a>, which I have wanted to use for some time, but I didn&rsquo;t really need much to create a simple interface. Front-end web development has really begun to wear on me and I just can&rsquo;t stand having to figure out how to center something in CSS anymore, so I kind of gave up on the styling after I got it functional. It works, it looks decent, and that&rsquo;s good enough for me since it&rsquo;s just for fun anyway.</p>
+<p>Deploying the extension on Mozilla Addons and the Chrome Web Store was something else I was not expecting to have to deal with. While you can sideload addons into Firefox, you must get them signed by Mozilla anyway, so I might as well submit it to their store. In Chrome, you can&rsquo;t sideload at all without adding an unzipped folder of the extension. As a result, I decided to just submit the extension to both stores. Mozilla approved it and published it remarkably quickly, and with a real person looking at it too (they left a comment!). Google still has not replied as of yet, which is reasonable considering it&rsquo;s only been a day. I wouldn&rsquo;t be surprised, however, if they reject it simply because it has Youtube as the first word in it&rsquo;s name. This policy is somewhat nonsensical to me. I understand that they want to protect their trademark, but I&rsquo;m adding functionality to their application for free, and it&rsquo;s pretty clear that it isn&rsquo;t an official Youtube product. Either way, having to deal with app stores is easily my least favorite part of this process.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>This was one of my more challenging projects, as it required a full stack solution (extension, API server, and remote front-end), but I was, to my surprise, able to complete it in a week. Several of those days were full days of work, but I am still surprised that I was able to complete it that fast. In the end, I did end up narrowing the scope of the application from what I had desired during the middle of the project, but I still consider it a success. I learned a lot about managing the development of a somewhat complex application and the importance of structure and deliberate implementation rather than flailing around until a working solution is found (which, admittedly, I learned from my own failures on this project). I&rsquo;m considering another complex application like this in the near future, but I will be sure to have a solid design in place before I begin any implementation.</p>
+
+			</div>
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/projects/2020-07-22_csvtopdf-processor-in-go-and-powershell-copy/">CSVtoPDF Processor in Go and Powershell</a></li>
+				
+				<li><a href="/projects/2020-07-22_csvtopdf-processor-in-go-and-powershell/">CSVtoPDF Processor in Go and Powershell</a></li>
+				
+				<li><a href="/projects/2020-07-22_sharded-distributed-key-value-store-in-go-copy/">Sharded Distributed Key Value Store in Go</a></li>
+				
+				<li><a href="/projects/2020-07-22_sharded-distributed-key-value-store-in-go/">Sharded Distributed Key Value Store in Go</a></li>
+				
+				<li><a href="/projects/2020-07-22_youtube-connect-copy/">Youtube Connect</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2024 <a href="http://localhost:1313/"><b>Ameya Thakur</b></a>.
+	<a href="https://github.com/indiandennis"><b>Github</b></a>.
+	<a href="mailto:website@ameyathakur.com"><b>Email</b></a>.
+	</p>
+</footer>
+
+</body>
+</html>

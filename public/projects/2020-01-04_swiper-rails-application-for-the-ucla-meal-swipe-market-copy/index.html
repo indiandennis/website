@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>Swiper: Rails application for the UCLA meal swipe market</title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+	
+</head>
+<body>
+	<header>
+	==================<br>
+	== <a href="http://localhost:1313/">Ameya Thakur</a> ==<br>
+	==================
+	<div style="float: right;">My blog/projects/portfolio</div><br>
+	<p>
+	<nav>
+			
+			
+			<a href="/blog/"><b>Blog</b></a>.
+			
+			<a href="/projects/"><b>Projects</b></a>.
+			
+			<a href="/about/"><b>About</b></a>.
+			
+	</nav>
+	</p>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>Swiper: Rails application for the UCLA meal swipe market</h1>
+			
+			<b><time>Jan 01, 2020</time></b>
+			
+		       
+		           <a href="/tags/web-development">web development</a>
+        	       
+		           <a href="/tags/software">software</a>
+        	       
+
+			<div>
+				<p>At UCLA, students living in dorms on campus (&ldquo;on the hill&rdquo;), get food from the dining halls and takeout locations using prepaid meal swipes. Because there are only a few plans available with a fixed number of swipes, most students end up with either too many or too few swipes by the end of the quarter. In addition, due to the high quality of UCLA&rsquo;s dorm food, many students living off campus want to eat on campus on occasion. This situation naturally leads to a large market for swipes. This market is primarily on Facebook groups, where it is highly unorganized and lacks easy filtering and sorting methods. We sought to resolve this situation for our Scalable Internet Services course.</p>
+<p>The completed application can be viewed at: <a href="https://swiper.ameyathakur.com">swiper.ameyathakur.com</a>. There may be some issues due to the seeded DB being too large for Heroku&rsquo;s free tier and the seeded data being older than the current date, messing up some of the filtering.</p>
+<h2 id="the-application">The Application</h2>
+<p>We were required to create the application using Rails, although none of the four of us had used it before. The actual application architecture is relatively simple. There are two models, one for users and one for listings.</p>
+<p>
+<figure>
+  <img src="/img/uploads/swiper_model.png" alt="Swiper Model Graph" />
+  <figcaption>Swiper Model Graph</figcaption>
+</figure>
+
+
+</p>
+<p>Users are managed using <a href="https://github.com/thoughtbot/clearance">Clearance</a>, but with custom controllers and views overriding some of the builtins to handle things like payment method selection on signup. The listings model handles the creation of posts to sell swipes. We chose to implement a seller&rsquo;s market, where sellers are the ones to create posts and buyers simply accept the one that they choose or wait for a better option. While this isn&rsquo;t necessarily ideal, it keeps the application simple to implement and to use, which we thought was better than a full market with both buy and sell orders.</p>
+<p>The application has a page to create new listings (for sellers), a page to browse existing listings and sort/filter them, a page to view the user&rsquo;s transactions, and a page to change the user&rsquo;s settings. The UI is styled with Bulma, which in retrospect was a poor decision as it is not nearly as complete as other CSS libraries like Bootstrap. However, our application is simple enough that it didn&rsquo;t cause too many problems.</p>
+<h2 id="scaling">Scaling</h2>
+<p>The focus of the course was more on the scaling of the Rails application for a large userbase using AWS. We used Elastic Beanstalk to deploy our application, and tested many different scaling approaches, which we benchmarked using Tsung. We had good results with horizontal scaling, but we were database limited, which we possibly could have resolved using Memcached or Redis in front of our Postgres DB. One of the most significant things we missed in regards to scaling was using a separate model for completed listings. If this application was deployed, the number of completed transactions would be far larger than the number of open listings. However, our filtering and sorting code would still have to go through all of the completed listings unnecessarily in the current structure.</p>
+<p>Our final report is much more comprehensive, and can be read <a href="https://docs.google.com/document/d/1B6rcEb3s_8UjEMnrZS6GdAKzkma8_xQzvJvgc1XqDXE/edit?usp=sharing">here</a>.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Developing with Rails was surprisingly easy once we got used to working with it. I enjoyed the simplicity in the interaction between the front and backend, especially compared to Angular and React, which I had used before. In the future, I may consider Rails as a better option if I need a rapid prototype, although it would most likely be easier to scale an application with the front and backend separated so that one can be modified independently of the other. I also learned a lot about working in groups from this project, since we used an agile workflow. Overall, this project gave me a great idea of what it is like to work on software engineering in the industry, rather than academically. The knowledge will undoubtedly benefit me in the future.</p>
+
+			</div>
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/projects/2020-07-22_csvtopdf-processor-in-go-and-powershell-copy/">CSVtoPDF Processor in Go and Powershell</a></li>
+				
+				<li><a href="/projects/2020-07-22_csvtopdf-processor-in-go-and-powershell/">CSVtoPDF Processor in Go and Powershell</a></li>
+				
+				<li><a href="/projects/2020-07-22_sharded-distributed-key-value-store-in-go-copy/">Sharded Distributed Key Value Store in Go</a></li>
+				
+				<li><a href="/projects/2020-07-22_sharded-distributed-key-value-store-in-go/">Sharded Distributed Key Value Store in Go</a></li>
+				
+				<li><a href="/projects/2020-07-22_youtube-connect-copy/">Youtube Connect</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2024 <a href="http://localhost:1313/"><b>Ameya Thakur</b></a>.
+	<a href="https://github.com/indiandennis"><b>Github</b></a>.
+	<a href="mailto:website@ameyathakur.com"><b>Email</b></a>.
+	</p>
+</footer>
+
+</body>
+</html>

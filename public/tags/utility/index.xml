@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Utility on Ameya Thakur</title>
+    <link>http://localhost:1313/tags/utility/</link>
+    <description>Recent content in Utility on Ameya Thakur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/utility/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSVtoPDF Processor in Go and Powershell</title>
+      <link>http://localhost:1313/projects/2020-07-22_csvtopdf-processor-in-go-and-powershell/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2020-07-22_csvtopdf-processor-in-go-and-powershell/</guid>
+      <description>Introduction Source: https://github.com/indiandennis/CSVtoPDF-public&#xA;I created this simple utility for my Mom&amp;rsquo;s dental practice. She wanted to have patients fill out intake forms before coming into the office (even more necessary than before due to the current pandemic), but needed a HIPAA compliant solution that could result in nicely formatted printed forms. Most professional providers charge upwards of $50 a month for just the HIPAA compliant forms, so I decided to make something to handle it.</description>
+    </item>
+    <item>
+      <title>Youtube Connect</title>
+      <link>http://localhost:1313/projects/2020-07-22_youtube-connect/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2020-07-22_youtube-connect/</guid>
+      <description>Youtube Connect Website: https://youtubeconnect.ameyathakur.com&#xA;Introduction This is a simple application I built over the summer to control a Youtube player in the browser from another device. I don&amp;rsquo;t have any particular use for it but thought that it was something cool I could work on,and a feature that is interestingly missing from Youtube. I was inspired by the Spotify Connect feature which I really enjoy using and admire the implementation of.</description>
+    </item>
+  </channel>
+</rss>
