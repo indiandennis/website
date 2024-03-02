@@ -1,0 +1,6 @@
+{{ define "main" }}
+	<main>
+		{{ $home := .Site.GetPage "section" "home" }}
+		{{ $home.Content }}
+	</main>
+{{ end }}
